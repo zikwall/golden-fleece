@@ -466,12 +466,14 @@ func QuickSort(a []int, low, high int) {
 - [NoSQL простым языком: что это и зачем нужно?](https://www.youtube.com/watch?v=IBzTDkYNB7I)
 - [Что такое NoSQL за 6 минут](https://www.youtube.com/watch?v=Xu4S2OX8Gb4&t=281s)
   
-- Типы баз данных
-  - Key-Value
-  - Графовые
-  - Колончатые (столбцовые)
-  - Документо-ориентированные
-  - 
+- Типы баз данных:
+  - Key-Value (Redis, Memcached, DynamoDB)
+  - Графовые (Neo4j, Dgraph)
+  - Колончатые (столбцовые) (Cassandra, HBase, Clickhouse)
+  - Документоориентированные (MongoDB, Amazon DynamoDB, CouchDB)
+  - Поисковые БД (ElasticSearch, Solr, Alglia)
+  - База данных временных рядов (InfluxDB, Prometheus)
+  - Многомодульные БД (пример Redis может и в графы и временные ряды и в документы)
 
 ## Инфраструктура, (Infrastructure, DevOps)
 
