@@ -52,6 +52,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 - Системный дизайн (System Design)
   - [System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю (download)](./System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю.pdf)
   - [System Design 101 (English](https://github.com/ByteByteGoHq/system-design-101#table-of-contents)
+  - [System+Design+Blueprint.pdf (download)](./System+Design+Blueprint.pdf)
   - Кеширование
     - Redis
     - Memcached 
