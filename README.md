@@ -201,7 +201,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 - OOP
 - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd)
 
-## Структуры данных (Data Steructures)
+## Структуры данных (Data Structures)
 
 Поскольку структуры данных используются для хранения информации в упорядоченном виде, а данные — самый важный феномен в информатике, истинная ценность структур данных очевидна.
 
