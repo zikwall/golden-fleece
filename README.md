@@ -20,7 +20,7 @@ The Ultimate Interview Guide for a Golang programmer and more.
 
 ### Каналы и операции над нами (Channels)
 
-- [Как на самом деле устроены каналы в Golang? | Golang channels internals](https://www.youtube.com/watch?v=ZTJcaP4G4JM&t=437s)
+- [Как на самом деле устроены каналы в Golang? | Golang channels internals](https://www.youtube.com/watch?v=ZTJcaP4G4JM)
 
 ### Контексты (Contexts)
 
@@ -28,7 +28,7 @@ The Ultimate Interview Guide for a Golang programmer and more.
 
 ### Массивы и слайсы (Arrays & Slices)
 
-- [GoLang Slice в деталях, простым языком](https://www.youtube.com/watch?v=10LW7NROfOQ&t=835s)
+- [GoLang Slice в деталях, простым языком](https://www.youtube.com/watch?v=10LW7NROfOQ)
 
 ### Карты (Maps)
 
@@ -37,7 +37,7 @@ The Ultimate Interview Guide for a Golang programmer and more.
 
 ### Интерфейсы и структуры (Interfaces & Structs)
 
-- [Почему интерфейсы лучше размещать в месте использования - GoLang best practices](https://www.youtube.com/watch?v=eYHCCht8eX4&t=745s)
+- [Почему интерфейсы лучше размещать в месте использования - GoLang best practices](https://www.youtube.com/watch?v=eYHCCht8eX4)
 
 ### Ошибки и паники (Errors & Panics)
 
@@ -61,7 +61,7 @@ The Ultimate Interview Guide for a Golang programmer and more.
 
 ### Тесты (Tests)
 
-- [Генерация и использование моков в Go / Mockery](https://www.youtube.com/watch?v=qaaa3RsC0FQ&t=25s)
+- [Генерация и использование моков в Go / Mockery](https://www.youtube.com/watch?v=qaaa3RsC0FQ)
 
 ### Преимущества и недостатки языка Golang относительно других популярных языков (Advantages and disadvantages of the Golang language)
 
@@ -70,6 +70,26 @@ The Ultimate Interview Guide for a Golang programmer and more.
 ## Алгоритмы (Algorithms)
 
 ### Сортировки
+
+**Ложка теории**
+
+Сортировка данных — одна из алгоритмических категорий, к которым программисту следует привыкнуть. В первую очередь, конечно же, вы столкнётесь с сортировкой на этапе обучения. Задачи, где что-то нужно упорядочить по определённому признаку, — распространённая история, которая повторяется и на собеседованиях.
+
+Сегодня существуют десятки алгоритмов сортировки. Прям на 100% одного идеального варианта нет: разные алгоритмы оптимальны для разных наборов и типов данных. Вы наверняка слышали или даже работали с самыми популярными из них:
+
+1. Пузырьковая сортировка
+2. Сортировка перемешиванием
+3. Сортировка расчёской
+4. Сортировка вставками
+5. Сортировка выбором
+6. Быстрая сортировка
+7. Пирамидальная сортировка
+
+Одни алгоритмы просты в реализации и хорошо подходят для разъяснения принципов сортировки, другие — для работы с большими массивами данных, третьи оптимизированы по числу процессорных циклов, скорости, etc.
+
+Вот так, например, выглядят 15 Алгоритмов сортировки за 6 минут. [15 Алгоритмов сортировки за 6 минут (xkcdoff)](https://www.youtube.com/watch?v=rQtereWDc24)
+
+Чтобы понять, зачем нужны алгоритмы сортировки, следует проанализировать хотя бы несколько из них. Рассмотрим наиболее популярные алгоритмы в коде и с кратким объяснением.
 
 #### 1. Пузырьковая сортировка (Bubble sort)
 
@@ -97,6 +117,20 @@ The Ultimate Interview Guide for a Golang programmer and more.
 | **Bubble sort**       | n               | n<sup>2</sup>       | n<sup>2</sup>       | 1         | Yes       |           |
 
 ##### Реализация
+
+```go
+func BubbleSort(a []int) []int {
+	for i := 0; i < len(a); i++ {
+		for j := i + 1; j < len(a); j++ {
+			if a[i] > a[j] {
+				a[i], a[j] = a[j], a[i]
+			}
+		}
+	}
+
+	return a
+}
+```
 
 ```go
 func BubbleSort(array []int) []int {
@@ -128,9 +162,7 @@ func BubbleSort(array []int) []int {
 
 ![View](https://github.com/goavengers/go-algorithms/blob/master/img/sort/BubbleSort.gif)
 
-3. Сортировка выборкой
-
-#### 4. Сортировка вставками (Insertion sort)
+#### 2. Сортировка вставками (Insertion sort)
 
 Этот алгоритм разделяет оригинальный массив на сортированный и несортированный подмассивы.
 
@@ -181,8 +213,14 @@ func InsertionSort(array []int) []int {
 
 ![View](https://github.com/goavengers/go-algorithms/blob/master/img/sort/InsertionSort.gif)
 
-5. Пирамидальная сортировка
+3. Сортировка подсчетом
 
-6. Сортировка слиянием
 
-7. Быстрая сортировка
+
+5. Сортировка выборкой
+
+6. Пирамидальная сортировка
+
+7. Сортировка слиянием
+
+8. Быстрая сортировка
