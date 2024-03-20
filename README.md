@@ -30,7 +30,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
      - [Оценка сложности алгоритмов, или Что такое Big O.](./ALGORITHMS.md#оценка-сложности-алгоритмов-или-что-такое-big-o) 
   - [Сортировки](./ALGORITHMS.md#сортировки)
      - [Ложка теории](./ALGORITHMS.md#ложка-теории)
-     - [Пузырьковая сортировка (Bubble sort)]([./ALGORITHMS.md?tab=readme-ov-file#1-пузырьковая-сортировка-bubble-sort](https://github.com/zikwall/golden-fleece/blob/master/ALGORITHMS.md?tab=readme-ov-file#1-%D0%BF%D1%83%D0%B7%D1%8B%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F-%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-bubble-sort))
+     - [Пузырьковая сортировка (Bubble sort)](https://github.com/zikwall/golden-fleece/blob/master/ALGORITHMS.md?tab=readme-ov-file#1-%D0%BF%D1%83%D0%B7%D1%8B%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F-%D1%81%D0%BE%D1%80%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-bubble-sort)
      - [Сортировка вставками (Insertion sort)](./ALGORITHMS.md#2-сортировка-вставками-insertion-sort)
      - [Сортировка подсчетом (Counting Sort)](./ALGORITHMS.md#3-сортировка-подсчетом-counting-sort)
      - [Быстрая сортировка (Quick Sort)](./ALGORITHMS.md#4-быстрая-сортировка-quick-sort)
