@@ -4,6 +4,10 @@
 
 The Ultimate Interview Guide for a Golang programmer and more.
 
+## Вопросы на собеседовании
+
+- [Общие вопросы](#)
+
 ## Golang
 
 ### Тулинг (Tools)
