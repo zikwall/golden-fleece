@@ -30,7 +30,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
      - [Оценка сложности алгоритмов, или Что такое Big O.](./ALGORITHMS.md#оценка-сложности-алгоритмов-или-что-такое-big-o) 
   - [Сортировки](./ALGORITHMS.md#сортировки)
      - [Ложка теории](./ALGORITHMS.md#ложка-теории)
-     - [Пузырьковая сортировка (Bubble sort)](./ALGORITHMS.md#1-пузырьковая-сортировка-bubble-sort)
+     - [Пузырьковая сортировка (Bubble sort)](./ALGORITHMS.md?tab=readme-ov-file#1-пузырьковая-сортировка-bubble-sort)
      - [Сортировка вставками (Insertion sort)](./ALGORITHMS.md#2-сортировка-вставками-insertion-sort)
      - [Сортировка подсчетом (Counting Sort)](./ALGORITHMS.md#3-сортировка-подсчетом-counting-sort)
      - [Быстрая сортировка (Quick Sort)](./ALGORITHMS.md#4-быстрая-сортировка-quick-sort)
@@ -49,7 +49,8 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd)
      - [Domain Driven Design в Go – это почти не больно](https://habr.com/ru/companies/oleg-bunin/articles/791420/) 
 - Системный дизайн (System Design)
-  - [System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю (download)](./System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю.pdf)  
+  - [System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю (download)](./System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю.pdf)
+  - [System Design 101 (English](https://github.com/ByteByteGoHq/system-design-101#table-of-contents)
   - Кеширование
     - Redis
     - Memcached 
