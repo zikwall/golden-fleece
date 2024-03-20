@@ -7,7 +7,8 @@ The Ultimate Interview Guide for a Golang programmer and more.
 ## Вопросы на собеседовании
 
 - [Общие вопросы](#)
-
+- [Алгоритмиечские задачи](#)
+  
 ## Golang
 
 ### Тулинг (Tools)
@@ -415,5 +416,40 @@ func QuickSort(a []int, low, high int) {
 - [Стек (Stack)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D1%82%D0%B5%D0%BA)
 - [Очередь (Queue)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C)
 - [Множества (Set)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0-sets)
-- [Свзанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
+- [Связанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
 
+## Системный дизайн (System Design)
+
+- Кеширование
+- Балансировка нагрузки
+- Межсервисное взаимодействие: gRPC, REST vs RPC
+
+## База данных
+
+### Реляционные базы данных
+
+- Индексы
+- Транзакции, уровни изоляции транзакций
+- ACID (ReadComitted, ReadCimmited, RepeatableRead, Serializable
+- Репликация и шардирования
+- Запросы. Поиск и анализ проблем производительности запросов
+- Postgres
+  - Материалы:
+    - [DEV1-12. 03. Изоляция и многоверсионность](https://www.youtube.com/watch?v=UTJAKhlJYT8)
+    - [DEV1-12. 04. Буферный кеш и журнал](https://www.youtube.com/watch?v=oZdioVBV-fo)
+  - Буферный кеш
+  - Жернал предзаписи (WAL)
+  - Контрольная точка восстановления
+  - Многоверсионность
+  - Снимок данных
+  - Блокировки
+  - Очистка страниц
+
+### NoSQL базы
+
+- Типы баз данных
+  - Key-Value
+  - Графовые
+  - Колончатые (столбцовые)
+  - Документо-ориентированные
+  - 
