@@ -422,16 +422,30 @@ func QuickSort(a []int, low, high int) {
 
 - Кеширование
 - Балансировка нагрузки
-- Межсервисное взаимодействие: gRPC, REST vs RPC
+- Межсервисное взаимодействие: gRPC, REST vs RPC, WeebHook, WebSocket
+  - [Что такое REST на самом деле?](https://www.youtube.com/watch?v=08-RlaLgWx4)
+  - [Что такое gRPC и Protobuf?](https://www.youtube.com/watch?v=_EqVG-El5z0)
+  - [Что такое Webhook и чем отличается от API?](https://www.youtube.com/watch?v=KhuZdeuF6kw)
+- Микросервисы:
+  - [Про микросервисы за 8 минут](https://www.youtube.com/watch?v=rCbdQc42eCw)
+  - [Проблема транзакций в микросервисной архитектуре / Краткая теория ACID / Что такое транзакция](https://www.youtube.com/watch?v=oirgmpk8KSo) 
 
 ## База данных
 
 ### Реляционные базы данных
 
+**MicrosoftSQL Server, Oracle Database, MySQL, Postgres**
+
 - Индексы
-- Транзакции, уровни изоляции транзакций
-- ACID (ReadComitted, ReadCimmited, RepeatableRead, Serializable
+  - [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA&pp=ygUhcG9zdGdyZXMg0LLQtdGA0YHQuNC-0L3QvdC-0YHRgtGM)
+  - [Базы данных. MySQL. Индексы](https://www.youtube.com/watch?v=RUF3n_EIcy8)
+- Транзакции, уровни изоляции транзакций (ReadCommited, ReadCommited (default Postgres), RepeatableRead (default MySQL), Serializable)
+  - [Базы данных. MySQL. Транзакции](https://www.youtube.com/watch?v=qb6l4B57Qmw)
+  - [Уровни изоляции транзакций в базах данных](https://www.youtube.com/watch?v=dmjZTtoxyf4)
+- ACID
+  - [Что такое ACID за 9 минут](https://www.youtube.com/watch?v=vFmajCQ7Wuc)
 - Репликация и шардирования
+  - [Что такое ШАРДИНГ и РЕПЛИКАЦИЯ за 9 минут](https://www.youtube.com/watch?v=qdNlt8wR_84) 
 - Запросы. Поиск и анализ проблем производительности запросов
 - Postgres
   - Материалы:
@@ -444,12 +458,47 @@ func QuickSort(a []int, low, high int) {
   - Снимок данных
   - Блокировки
   - Очистка страниц
-
+- MySQL
+  - Типы движков: InnoDB и MyISAM
+ 
 ### NoSQL базы
 
+- [NoSQL простым языком: что это и зачем нужно?](https://www.youtube.com/watch?v=IBzTDkYNB7I)
+- [Что такое NoSQL за 6 минут](https://www.youtube.com/watch?v=Xu4S2OX8Gb4&t=281s)
+  
 - Типы баз данных
   - Key-Value
   - Графовые
   - Колончатые (столбцовые)
   - Документо-ориентированные
   - 
+
+## Инфраструктура, (Infrastructure, DevOps)
+
+### Docker
+
+- [Что такое Docker?](https://www.youtube.com/watch?v=aZTL2zRmOnA)
+
+### Kubernetes
+
+- [Что такое Kubernetes?](https://www.youtube.com/watch?v=klmpiHLSuXA)
+
+- GitLab, Bitbucket
+- Мониторинг
+- Алертинг
+
+### Git & GitFlow
+
+- [Что такое Git за 8 минут: Объясняем на пальцах](https://www.youtube.com/watch?v=G4f9OH4IQE8)
+- [Что такое Git flow и когда использовать?](https://www.youtube.com/watch?v=umiT0yIsSrc)
+
+### Ansible
+
+- [Что такое Ansible?](https://www.youtube.com/watch?v=23Zec3ORJOY)
+  
+### CI/CD
+
+- [Про CI/CD за 5 минут](https://www.youtube.com/watch?v=Y-hYifHkjMs)
+- [Что такое Jenkins?](https://www.youtube.com/watch?v=CtHcrmRplJI)
+
+## Сети (Networks)
