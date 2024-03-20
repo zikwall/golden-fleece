@@ -109,7 +109,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - Postgres
     - Материалы:
       - [PostgreSQL 14 изнутри](https://postgrespro.ru/education/books/internals)
-      - [de5134060bdaad15a9c0c2b12373025b_Mastering   PostgreSQL 11.pdf (download)](./de5134060bdaad15a9c0c2b12373025b_Mastering   PostgreSQL 11.pdf)
+      - [de5134060bdaad15a9c0c2b12373025b_Mastering   PostgreSQL 11.pdf (download)](https://github.com/zikwall/golden-fleece/blob/master/de5134060bdaad15a9c0c2b12373025b_Mastering%20%20%20PostgreSQL%2011.pdf)
       - [DEV1-12. 03. Изоляция и многоверсионность](https://www.youtube.com/watch?v=UTJAKhlJYT8)
       - [DEV1-12. 04. Буферный кеш и журнал](https://www.youtube.com/watch?v=oZdioVBV-fo)
     - Ключевые моменты
