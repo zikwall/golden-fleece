@@ -6,10 +6,10 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 
 # Путеводитель (Table of contents)
 
-- Вопросы на собеседовании
+- **Вопросы на собеседовании**
   - Общие вопросы
   - Алгоритмиечские задачи
-- Golang
+- **Golang**
   - Тулинг (Tools)
     - [Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf (download)](./Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf)
   - Модули и пакеты (Modules & Packages)
@@ -36,7 +36,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - Тесты (Tests)
     - [Генерация и использование моков в Go / Mockery](https://www.youtube.com/watch?v=qaaa3RsC0FQ)
   - Преимущества и недостатки
-- [Алгоритмы](./ALGORITHMS.md)
+- **[Алгоритмы](./ALGORITHMS.md)**
   - [Прежде чем начать, зачем мне изучать концепцию Big O?](./ALGORITHMS.md#прежде-чем-начать-зачем-мне-изучать-концепцию-big-o)
      - [Оценка сложности алгоритмов, или Что такое Big O.](./ALGORITHMS.md#оценка-сложности-алгоритмов-или-что-такое-big-o) 
   - [Сортировки](./ALGORITHMS.md#сортировки)
@@ -46,10 +46,10 @@ The Ultimate Interview Guide for a Golang Programmer and more.
      - [Сортировка подсчетом (Counting Sort)](./ALGORITHMS.md#3-сортировка-подсчетом-counting-sort)
      - [Быстрая сортировка (Quick Sort)](./ALGORITHMS.md#4-быстрая-сортировка-quick-sort)
   - [Поиск](./ALGORITHMS.md#поиск)
-- Дизайн (паттерны кода) (Code Patterns)
+- **Дизайн (паттерны кода) (Code Patterns)**
   - [Refactoring.Guru](https://refactoring.guru/design-patterns/go)
   - [Паттерны проектирования с примерами на Golang](https://github.com/AlexanderGrom/go-patterns)
-- Дизайн (принципы) (Design Principes)
+- **Дизайн (принципы) (Design Principes)**
   - [SOLID](https://github.com/goavengers/go-principles?tab=readme-ov-file#solid)
   - [DRY](https://github.com/goavengers/go-principles?tab=readme-ov-file#dry)
   - [KISS](https://github.com/goavengers/go-principles?tab=readme-ov-file#kiss)
@@ -59,7 +59,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
      - [Объектно-ориентированное программирование за 10 минут](https://www.youtube.com/watch?v=W2V1ZUceKBk)
   - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd)
      - [Domain Driven Design в Go – это почти не больно](https://habr.com/ru/companies/oleg-bunin/articles/791420/) 
-- Системный дизайн (System Design)
+- **Системный дизайн (System Design)**
   - [System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю (download)](./System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю.pdf)
   - [System Design 101 (English](https://github.com/ByteByteGoHq/system-design-101#table-of-contents)
   - [System+Design+Blueprint.pdf (download)](./System+Design+Blueprint.pdf)
@@ -91,7 +91,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - Микросервисы:
     - [Про микросервисы за 8 минут](https://www.youtube.com/watch?v=rCbdQc42eCw)
     - [Проблема транзакций в микросервисной архитектуре / Краткая теория ACID / Что такое транзакция](https://www.youtube.com/watch?v=oirgmpk8KSo) 
-- Структуры данных (Data Steructures)
+- **Структуры данных (Data Steructures)**
   - Массивы
   - Динамические массивы
   - Деревья
@@ -102,7 +102,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - [Очередь (Queue)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C)
   - [Множества (Set)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0-sets)
   - [Связанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
-- База данных
+- **База данных (Databases)**
   - Реляционные базы
     - [Database Design Guide](https://docs.ensi.tech/guidelines/database)
     - Индексы
@@ -144,7 +144,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
       - **Поисковые БД** (ElasticSearch, Solr, Alglia)
       - **База данных временных рядов** (InfluxDB, Prometheus)
       - **Многомодульные БД** (пример Redis может и в графы и временные ряды и в документы)
-- Инфраструктура, (Infrastructure, DevOps)
+- **Инфраструктура, (Infrastructure, DevOps)**
   - Docker
   - Kubernetes
   - Git & GitFlow
@@ -159,7 +159,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
     - DroneCI
     - TeamCity
     - GitLab, Bitbucket, Github Actions
-- Сети (Networks)
+- **Сети (Networks)**
   - [Что такое IP - адрес и можно ли по нему кого-то вычислить?](https://www.youtube.com/watch?v=6tFGoiok0u8)
   - [Модель OSI | 7 уровней за 7 минут](https://www.youtube.com/watch?v=je0QFU7p5Oo)
   - [Ethernet на пальцах](https://www.youtube.com/watch?v=jLGadArowCE)
@@ -173,12 +173,17 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - [SSL и TLS - в чем разница?](https://www.youtube.com/watch?v=OmlkEhRHRTA)
   - [Учим основы - что такое VLAN?](https://www.youtube.com/watch?v=tbg1JiTRBSQ)
   - [Основы BGP за 7 минут](https://www.youtube.com/watch?v=EVYagz5ZeiA&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2)
-- Система (System, Linux)
+- Система, ОС (System, OS, Linux)
   - [Про Linux за 5 минут | Что это или как финский студент перевернул мир?](https://www.youtube.com/watch?v=t2iMS8V8v_U&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=5)
   - [RAID 0, 1, 5 и 10 | Что это?](https://www.youtube.com/watch?v=7pU3edBVcYw&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=12)
   - [Как работает компьютерная память: что такое RAM, ROM, SSD, HDD и в чем разница?](https://www.youtube.com/watch?v=tjbB2vh627s&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=33)
 - [Топ 35 вопросов на собеседовании IT - спецу | Что тебя ждет и как отвечать, чтобы получить оффер?](https://www.youtube.com/watch?v=z0wDQc_UE2M&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=35)
-
+- **Информационная безопасность, ИБ (Information security)**
+  - Шифрования
+    - Симметричное и ассиметричное шифрование
+  - Идентификация, авторизация и аунтификация
+  - Целостность и аутентичность сообщений обмена
+ 
 ## Вопросы на собеседовании
 
 - [Общие вопросы](#)
