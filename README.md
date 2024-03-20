@@ -408,15 +408,10 @@ func QuickSort(a []int, low, high int) {
 
 - Массивы
 - Динамические массивы
-- Множества
-- Стеки
-- Очереди
-- Связные списки
 - Деревья
 - Графы
 - Боры (в сущности, это тоже деревья, но их целесообразно рассмотреть отдельно).
 - Хеш-таблицы
-
 - [Стек (Stack)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D1%82%D0%B5%D0%BA)
 - [Очередь (Queue)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C)
 - [Множества (Set)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0-sets)
