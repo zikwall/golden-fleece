@@ -20,7 +20,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
         1. [x] [Как на самом деле устроены каналы в Golang? | Golang channels internals](https://www.youtube.com/watch?v=ZTJcaP4G4JM)
     1. [ ] Контексты (Contexts)
     1. [x] Массивы и слайсы (Arrays & Slices)
-        1. [GoLang Slice в деталях, простым языком](https://www.youtube.com/watch?v=10LW7NROfOQ) 
+        1. [x] [GoLang Slice в деталях, простым языком](https://www.youtube.com/watch?v=10LW7NROfOQ) 
     1. [x] Карты (Maps)
         1. [x] [Хэш-таблицы за 10 минут](https://www.youtube.com/watch?v=0UX4MIfOMEs)
         1. [x] [Как на самом деле устроен тип Map в Golang? | Golang под капотом](https://www.youtube.com/watch?v=P_SXTUiA-9Y)
