@@ -2,13 +2,79 @@
 
 Ультимативное руководство по собеседованию для программиста Golang и не только. 
 
-The Ultimate Interview Guide for a Golang programmer and more.
+The Ultimate Interview Guide for a Golang Programmer and more.
+
+# Путеводитель
+
+- Вопросы на собеседовании
+  - Общие вопросы
+  - Алгоритмиечские задачи
+- Golang
+  - Тулинг (Tools)
+  - Модули и пакеты (Modules & Packages)
+  - Шедулинг и горутины (Shedule & Goroutines)
+  - Каналы и операции над нами (Channels)
+  - Контексты (Contexts)
+  - Массивы и слайсы (Arrays & Slices)
+  - Карты (Maps)
+  - Интерфейсы и структуры (Interfaces & Structs)
+  - Ошибки и паники (Errors & Panics)
+  - Отложенные вызовы (Deferer)
+  - Примитивы сихронизации (Sync Primitives)
+  - Устройство строк, работа со строками (Strings in Golang)
+  - Сборщик мусора (Garbage Collector)
+  - Тесты (Tests)
+  - Преимущества и недостатки
+- Алгоритмы
+  - Сортировки
+  - Поиск 
+- Дизайн (паттерны кода) (Code Patterns)
+  - [Refactoring.Guru](https://refactoring.guru/design-patterns/go)
+  - [Паттерны проектирования с примерами на Golang](https://github.com/AlexanderGrom/go-patterns)
+- Дизайн (принципы) (Design Principes)
+  - [SOLID](https://github.com/goavengers/go-principles?tab=readme-ov-file#solid)
+  - [DRY](https://github.com/goavengers/go-principles?tab=readme-ov-file#dry)
+  - [KISS](https://github.com/goavengers/go-principles?tab=readme-ov-file#kiss)
+  - [YAGNI](https://github.com/goavengers/go-principles?tab=readme-ov-file#yagni)
+  - OOP
+  - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd) 
+- Структуры данных (Data Steructures)
+  - Массивы
+  - Динамические массивы
+  - Деревья
+  - Графы
+  - Боры (в сущности, это тоже деревья, но их целесообразно рассмотреть отдельно).
+  - Хеш-таблицы
+  - [Стек (Stack)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D1%82%D0%B5%D0%BA)
+  - [Очередь (Queue)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C)
+  - [Множества (Set)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0-sets)
+  - [Связанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
+- База данных
+  - Реляционные базы
+  - NoSQL базы 
+- Инфраструктура, (Infrastructure, DevOps)
+  - Docker
+  - Kubernetes
+  - Git & GitFlow
+  - Ansible
+  - Метрики, Мониторинг, Алертинг, Логи, Трейсы
+    - Grafana
+    - Prometheus
+    - Graylog
+    - Jaeger
+  - CI/CD
+    - Jetkins
+    - DroneCI
+    - TeamCity
+    - GitLab, Bitbucket, Github Actions
+- Сети (Networks)
+  - 
 
 ## Вопросы на собеседовании
 
 - [Общие вопросы](#)
 - [Алгоритмиечские задачи](#)
-  
+
 ## Golang
 
 ### Тулинг (Tools)
@@ -52,7 +118,7 @@ The Ultimate Interview Guide for a Golang programmer and more.
 
 -
 
-### Примитивы сихронизации (Sync primitives)
+### Примитивы сихронизации (Sync Primitives)
 
 -
 
@@ -486,9 +552,7 @@ func QuickSort(a []int, low, high int) {
 
 - [Что такое Kubernetes?](https://www.youtube.com/watch?v=klmpiHLSuXA)
 
-- GitLab, Bitbucket
-- Мониторинг
-- Алертинг
+### Метрики, Мониторинг, Алертинг
 
 ### Git & GitFlow
 
@@ -505,3 +569,4 @@ func QuickSort(a []int, low, high int) {
 - [Что такое Jenkins?](https://www.youtube.com/watch?v=CtHcrmRplJI)
 
 ## Сети (Networks)
+
