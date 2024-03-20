@@ -6,10 +6,10 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 
 # Путеводитель (Table of contents)
 
-1. **Вопросы на собеседовании**
+1. [ ] **Вопросы на собеседовании**
     1. [ ] Общие вопросы
     1. [ ] Алгоритмиечские задачи
-1. **Golang**
+1. [ ] **Golang**
     1. [x] Тулинг (Tools)
         1. [x] [Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf (download)](./Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf)
     1. [ ] Модули и пакеты (Modules & Packages)
