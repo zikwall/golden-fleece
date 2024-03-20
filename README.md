@@ -121,7 +121,6 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - NoSQL базы
     - [NoSQL простым языком: что это и зачем нужно?](https://www.youtube.com/watch?v=IBzTDkYNB7I)
     - [Что такое NoSQL за 6 минут](https://www.youtube.com/watch?v=Xu4S2OX8Gb4&t=281s)
-  
     - Типы баз данных:
       - **Key-Value** (Redis, Memcached, DynamoDB)
       - **Графовые** (Neo4j, Dgraph)
