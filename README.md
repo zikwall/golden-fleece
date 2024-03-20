@@ -108,6 +108,8 @@ The Ultimate Interview Guide for a Golang Programmer and more.
     - Запросы. Поиск и анализ проблем производительности запросов
   - Postgres
     - Материалы:
+      - [PostgreSQL 14 изнутри](https://postgrespro.ru/education/books/internals)
+      - [de5134060bdaad15a9c0c2b12373025b_Mastering   PostgreSQL 11.pdf (download)](./de5134060bdaad15a9c0c2b12373025b_Mastering   PostgreSQL 11.pdf)
       - [DEV1-12. 03. Изоляция и многоверсионность](https://www.youtube.com/watch?v=UTJAKhlJYT8)
       - [DEV1-12. 04. Буферный кеш и журнал](https://www.youtube.com/watch?v=oZdioVBV-fo)
     - Ключевые моменты
