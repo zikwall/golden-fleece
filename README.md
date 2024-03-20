@@ -1,4 +1,4 @@
-# Welcome, dear traveler
+# Welcome, dear Traveler
 
 Ультимативное руководство по собеседованию для программиста Golang и не только. 
 
