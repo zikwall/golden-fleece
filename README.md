@@ -69,6 +69,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
     - Apache Kafka
       - [Про Kafka (основы)](https://www.youtube.com/watch?v=-AZOi3kP9Js)
       - [Что такое Apache Kafka за 5 минут](https://www.youtube.com/watch?v=Mw9YFay8-WM)
+      - [Kafka Design Guide](https://docs.ensi.tech/guidelines/kafka)
     - RabbitMQ
       - [Основы RabbitMQ: что это и как это работает!](https://www.youtube.com/watch?v=i-Eh-NCa0Tk)
       - [Что такое RabbitMQ и чем он отличается от Apache Kafka за 10 минут](https://www.youtube.com/watch?v=w_M6WEGS2fw)
@@ -89,6 +90,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - [Связанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
 - База данных
   - Реляционные базы
+    - [Database Design Guide](https://docs.ensi.tech/guidelines/database)
     - Индексы
       - [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA&pp=ygUhcG9zdGdyZXMg0LLQtdGA0YHQuNC-0L3QvdC-0YHRgtGM)
       - [Базы данных. MySQL. Индексы](https://www.youtube.com/watch?v=RUF3n_EIcy8)
