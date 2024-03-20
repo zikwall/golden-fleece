@@ -49,7 +49,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd)
      - [Domain Driven Design в Go – это почти не больно](https://habr.com/ru/companies/oleg-bunin/articles/791420/) 
 - Системный дизайн (System Design)
-  - [System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю](./System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю.pdf)  
+  - [System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю (download)](./System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю.pdf)  
   - Кеширование
     - Redis
     - Memcached 
