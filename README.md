@@ -1,76 +1,76 @@
-### Welcome, dear traveler
+# Welcome, dear traveler
 
 Ультиматум и руководство по собеседованию для программиста Golang и не только. 
 Ultimatum and Interview guide for Golang programmer and more.
 
-#### Golang
+## Golang
 
-##### Тулинг (Tools)
-
--
-
-##### Модули и пакеты (Modules & Packages)
+### Тулинг (Tools)
 
 -
 
-##### Шедулинг и горутины (Shedule & Goroutines)
+### Модули и пакеты (Modules & Packages)
 
 -
 
-##### Каналы и операции над нами (Channels)
+### Шедулинг и горутины (Shedule & Goroutines)
+
+-
+
+### Каналы и операции над нами (Channels)
 
 - [Как на самом деле устроены каналы в Golang? | Golang channels internals](https://www.youtube.com/watch?v=ZTJcaP4G4JM&t=437s)
 
-##### Контексты (Contexts)
+### Контексты (Contexts)
 
 -
 
-##### Массивы и слайсы (Arrays & Slices)
+### Массивы и слайсы (Arrays & Slices)
 
 - [GoLang Slice в деталях, простым языком](https://www.youtube.com/watch?v=10LW7NROfOQ&t=835s)
 
-##### Карты (Maps)
+### Карты (Maps)
 
 - [Хэш-таблицы за 10 минут](https://www.youtube.com/watch?v=0UX4MIfOMEs)
 - [Как на самом деле устроен тип Map в Golang? | Golang под капотом](https://www.youtube.com/watch?v=P_SXTUiA-9Y)
 
-##### Интерфейсы и структуры (Interfaces & Structs)
+### Интерфейсы и структуры (Interfaces & Structs)
 
 - [Почему интерфейсы лучше размещать в месте использования - GoLang best practices](https://www.youtube.com/watch?v=eYHCCht8eX4&t=745s)
 
-##### Ошибки и паники (Errors & Panics)
+### Ошибки и паники (Errors & Panics)
 
 - 
 
-##### Отложенные вызовы (Deferer)
+### Отложенные вызовы (Deferer)
 
 -
 
-##### Примитивы сихронизации (Sync primitives)
+### Примитивы сихронизации (Sync primitives)
 
 -
 
-##### Устройство строк, работа со строками (Strings in Golang)
+### Устройство строк, работа со строками (Strings in Golang)
 
 -
 
-##### Сборщик мусора (Garbage Collector)
+### Сборщик мусора (Garbage Collector)
 
 -
 
-##### Тесты (Tests)
+### Тесты (Tests)
 
 -
 
-##### Преимущества и недостатки языка Golang относительно других популярных языков (Advantages and disadvantages of the Golang language)
+### Преимущества и недостатки языка Golang относительно других популярных языков (Advantages and disadvantages of the Golang language)
 
 -
 
-#### Алгоритмы (Algorithms)
+## Алгоритмы (Algorithms)
 
-##### Сортировки
+### Сортировки
 
-1. Пузырьковая сортировка (Bubble sort)
+#### 1. Пузырьковая сортировка (Bubble sort)
 
 Алгоритм состоит из повторяющихся проходов по сортируемому массиву. 
 За каждый проход элементы последовательно сравниваются попарно и, если порядок в паре неверный, выполняется обмен элементов.
@@ -89,13 +89,13 @@ Ultimatum and Interview guide for Golang programmer and more.
 
 Но причём тут пузырьки? Посмотрите снова на пример, и вы увидите, что алгоритм как бы смещается вправо. По этому поведению элементов в массиве и возникла аналогия с «пузырьками», всплывающими на «поверхность».
 
-## Сложность
+##### Сложность
 
 | Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
 | --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
 | **Bubble sort**       | n               | n<sup>2</sup>       | n<sup>2</sup>       | 1         | Yes       |           |
 
-## Реализация
+##### Реализация
 
 ```go
 func BubbleSort(array []int) []int {
@@ -123,7 +123,9 @@ func BubbleSort(array []int) []int {
 }
 ```
 
-## Визуализация
+##### Визуализация
+
+![View](https://github.com/goavengers/go-algorithms/blob/master/img/sort/BubbleSort.gif)
 
 3. Сортировка выборкой
 
