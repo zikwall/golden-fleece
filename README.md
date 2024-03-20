@@ -195,15 +195,21 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 
 ### Тулинг (Tools)
 
--
+```
+// block here
+```
 
 ### Модули и пакеты (Modules & Packages)
 
--
+```
+// block here
+```
 
 ### Шедулинг и горутины (Shedule & Goroutines)
 
--
+```
+// block here
+```
 
 ### Каналы и операции над нами (Channels)
 
@@ -211,7 +217,9 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 
 ### Контексты (Contexts)
 
--
+```
+// block here
+```
 
 ### Массивы и слайсы (Arrays & Slices)
 
@@ -228,23 +236,33 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 
 ### Ошибки и паники (Errors & Panics)
 
-- 
+```
+// block here
+```
 
 ### Отложенные вызовы (Deferer)
 
--
+```
+// block here
+```
 
 ### Примитивы сихронизации (Sync Primitives)
 
--
+```
+// block here
+```
 
 ### Устройство строк, работа со строками (Strings in Golang)
 
--
+```
+// block here
+```
 
 ### Сборщик мусора (Garbage Collector)
 
--
+```
+// block here
+```
 
 ### Тесты (Tests)
 
@@ -252,18 +270,9 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 
 ### Преимущества и недостатки языка Golang относительно других популярных языков (Advantages and disadvantages of the Golang language)
 
--
-
-## Дизайн (паттерны кода) (Code Patterns)
-
-- [Refactoring.Guru](https://refactoring.guru/design-patterns/go)
-- [Паттерны проектирования с примерами на Golang](https://github.com/AlexanderGrom/go-patterns)
-- [SOLID](https://github.com/goavengers/go-principles?tab=readme-ov-file#solid)
-- [DRY](https://github.com/goavengers/go-principles?tab=readme-ov-file#dry)
-- [KISS](https://github.com/goavengers/go-principles?tab=readme-ov-file#kiss)
-- [YAGNI](https://github.com/goavengers/go-principles?tab=readme-ov-file#yagni)
-- OOP
-- [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd)
+```
+// block here
+```
 
 ## Структуры данных (Data Structures)
 
@@ -287,90 +296,3 @@ The Ultimate Interview Guide for a Golang Programmer and more.
 - [Очередь (Queue)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C)
 - [Множества (Set)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0-sets)
 - [Связанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
-
-## Системный дизайн (System Design)
-
-- Кеширование
-- Балансировка нагрузки
-- Межсервисное взаимодействие: gRPC, REST vs RPC, WeebHook, WebSocket
-  - [Что такое REST на самом деле?](https://www.youtube.com/watch?v=08-RlaLgWx4)
-  - [Что такое gRPC и Protobuf?](https://www.youtube.com/watch?v=_EqVG-El5z0)
-  - [Что такое Webhook и чем отличается от API?](https://www.youtube.com/watch?v=KhuZdeuF6kw)
-- Микросервисы:
-  - [Про микросервисы за 8 минут](https://www.youtube.com/watch?v=rCbdQc42eCw)
-  - [Проблема транзакций в микросервисной архитектуре / Краткая теория ACID / Что такое транзакция](https://www.youtube.com/watch?v=oirgmpk8KSo) 
-
-## База данных
-
-### Реляционные базы данных
-
-**MicrosoftSQL Server, Oracle Database, MySQL, Postgres**
-
-- Индексы
-  - [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA&pp=ygUhcG9zdGdyZXMg0LLQtdGA0YHQuNC-0L3QvdC-0YHRgtGM)
-  - [Базы данных. MySQL. Индексы](https://www.youtube.com/watch?v=RUF3n_EIcy8)
-- Транзакции, уровни изоляции транзакций (ReadCommited, ReadCommited (default Postgres), RepeatableRead (default MySQL), Serializable)
-  - [Базы данных. MySQL. Транзакции](https://www.youtube.com/watch?v=qb6l4B57Qmw)
-  - [Уровни изоляции транзакций в базах данных](https://www.youtube.com/watch?v=dmjZTtoxyf4)
-- ACID
-  - [Что такое ACID за 9 минут](https://www.youtube.com/watch?v=vFmajCQ7Wuc)
-- Репликация и шардирования
-  - [Что такое ШАРДИНГ и РЕПЛИКАЦИЯ за 9 минут](https://www.youtube.com/watch?v=qdNlt8wR_84) 
-- Запросы. Поиск и анализ проблем производительности запросов
-- Postgres
-  - Материалы:
-    - [DEV1-12. 03. Изоляция и многоверсионность](https://www.youtube.com/watch?v=UTJAKhlJYT8)
-    - [DEV1-12. 04. Буферный кеш и журнал](https://www.youtube.com/watch?v=oZdioVBV-fo)
-  - Ключевые моменты
-    - Буферный кеш
-    - Жернал предзаписи (WAL)
-    - Контрольная точка восстановления
-    - Многоверсионность
-    - Снимок данных
-    - Блокировки
-    - Очистка страниц
-- MySQL
-  - Типы движков: InnoDB и MyISAM
- 
-### NoSQL базы
-
-- [NoSQL простым языком: что это и зачем нужно?](https://www.youtube.com/watch?v=IBzTDkYNB7I)
-- [Что такое NoSQL за 6 минут](https://www.youtube.com/watch?v=Xu4S2OX8Gb4&t=281s)
-  
-- Типы баз данных:
-  - **Key-Value** (Redis, Memcached, DynamoDB)
-  - **Графовые** (Neo4j, Dgraph)
-  - **Колончатые (столбцовые)** (Cassandra, HBase, Clickhouse)
-  - **Документоориентированные** (MongoDB, Amazon DynamoDB, CouchDB)
-  - **Поисковые БД** (ElasticSearch, Solr, Alglia)
-  - **База данных временных рядов** (InfluxDB, Prometheus)
-  - **Многомодульные БД** (пример Redis может и в графы и временные ряды и в документы)
-
-## Инфраструктура, (Infrastructure, DevOps)
-
-### Docker
-
-- [Что такое Docker?](https://www.youtube.com/watch?v=aZTL2zRmOnA)
-
-### Kubernetes
-
-- [Что такое Kubernetes?](https://www.youtube.com/watch?v=klmpiHLSuXA)
-
-### Метрики, Мониторинг, Алертинг
-
-### Git & GitFlow
-
-- [Что такое Git за 8 минут: Объясняем на пальцах](https://www.youtube.com/watch?v=G4f9OH4IQE8)
-- [Что такое Git flow и когда использовать?](https://www.youtube.com/watch?v=umiT0yIsSrc)
-
-### Ansible
-
-- [Что такое Ansible?](https://www.youtube.com/watch?v=23Zec3ORJOY)
-  
-### CI/CD
-
-- [Про CI/CD за 5 минут](https://www.youtube.com/watch?v=Y-hYifHkjMs)
-- [Что такое Jenkins?](https://www.youtube.com/watch?v=CtHcrmRplJI)
-
-## Сети (Networks)
-
