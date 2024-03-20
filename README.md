@@ -120,6 +120,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
       - Снимок данных
       - Блокировки
       - Очистка страниц
+      - Типы индексов
   - MySQL
     - Типы движков: InnoDB и MyISAM
   - NoSQL базы
