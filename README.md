@@ -46,105 +46,107 @@ The Ultimate Interview Guide for a Golang Programmer and more.
         1. [x] [Сортировка подсчетом (Counting Sort)](./ALGORITHMS.md#3-сортировка-подсчетом-counting-sort)
         1. [x] [Быстрая сортировка (Quick Sort)](./ALGORITHMS.md#4-быстрая-сортировка-quick-sort)
 1. [ ] [Поиск](./ALGORITHMS.md#поиск)
-- **Дизайн (паттерны кода) (Code Patterns)**
-  - [Refactoring.Guru](https://refactoring.guru/design-patterns/go)
-  - [Паттерны проектирования с примерами на Golang](https://github.com/AlexanderGrom/go-patterns)
-- **Дизайн (принципы) (Design Principes)**
-  - [SOLID](https://github.com/goavengers/go-principles?tab=readme-ov-file#solid)
-  - [DRY](https://github.com/goavengers/go-principles?tab=readme-ov-file#dry)
-  - [KISS](https://github.com/goavengers/go-principles?tab=readme-ov-file#kiss)
-  - [YAGNI](https://github.com/goavengers/go-principles?tab=readme-ov-file#yagni)
-  - ООП
-     - [Что такое ООП (объектно-ориентированное программирование)?](https://www.youtube.com/watch?v=ChEdFh7Q-Vw&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=43)
-     - [Объектно-ориентированное программирование за 10 минут](https://www.youtube.com/watch?v=W2V1ZUceKBk)
-  - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd)
-     - [Domain Driven Design в Go – это почти не больно](https://habr.com/ru/companies/oleg-bunin/articles/791420/) 
-- **Системный дизайн (System Design)**
-  - [System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю (download)](./System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю.pdf)
-  - [System Design 101 (English](https://github.com/ByteByteGoHq/system-design-101#table-of-contents)
-  - [System+Design+Blueprint.pdf (download)](./System+Design+Blueprint.pdf)
-  - Кеширование
-    - Redis
-    - Memcached 
-  - Балансировка нагрузки
-    - HaProxy 
-  - Межсервисное взаимодействие: gRPC, REST vs RPC, WeebHook, WebSocket
-    - [Что такое REST на самом деле?](https://www.youtube.com/watch?v=08-RlaLgWx4)
-    - [Что такое gRPC и Protobuf?](https://www.youtube.com/watch?v=_EqVG-El5z0)
-    - API
-       - [API Design Guide](https://docs.ensi.tech/guidelines/api)
-    - WeebHook
-       - [Что такое Webhook и чем отличается от API?](https://www.youtube.com/watch?v=KhuZdeuF6kw)
-       - [Что такое Webhook за 12 минут](https://www.youtube.com/watch?v=_NlHzAaLH4g)
-    - WebSockets
-       - [Все про WebSockets (веб-сокеты) простыми словами](https://www.youtube.com/watch?v=19d4AXt3dSI&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=40)
-       - [Что такое веб-сокеты за 4 минуты](https://www.youtube.com/watch?v=WtF-wMzPtuM)
-  - Брокеры сообщений
-    - Apache Kafka
-      - [Про Kafka (основы)](https://www.youtube.com/watch?v=-AZOi3kP9Js)
-      - [Что такое Apache Kafka за 5 минут](https://www.youtube.com/watch?v=Mw9YFay8-WM)
-      - [Kafka Design Guide](https://docs.ensi.tech/guidelines/kafka)
-    - RabbitMQ
-      - [Основы RabbitMQ: что это и как это работает!](https://www.youtube.com/watch?v=i-Eh-NCa0Tk)
-      - [Что такое RabbitMQ и чем он отличается от Apache Kafka за 10 минут](https://www.youtube.com/watch?v=w_M6WEGS2fw)
-    - Nats
-  - Микросервисы:
-    - [Про микросервисы за 8 минут](https://www.youtube.com/watch?v=rCbdQc42eCw)
-    - [Проблема транзакций в микросервисной архитектуре / Краткая теория ACID / Что такое транзакция](https://www.youtube.com/watch?v=oirgmpk8KSo) 
-- **Структуры данных (Data Steructures)**
-  - Массивы
-  - Динамические массивы
-  - Деревья
-  - Графы
-  - Боры (в сущности, это тоже деревья, но их целесообразно рассмотреть отдельно).
-  - Хеш-таблицы
-  - [Стек (Stack)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D1%82%D0%B5%D0%BA)
-  - [Очередь (Queue)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C)
-  - [Множества (Set)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0-sets)
-  - [Связанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
-- **База данных (Databases)**
-  - Реляционные базы
-    - [Database Design Guide](https://docs.ensi.tech/guidelines/database)
-    - Индексы
-      - [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA&pp=ygUhcG9zdGdyZXMg0LLQtdGA0YHQuNC-0L3QvdC-0YHRgtGM)
-      - [Базы данных. MySQL. Индексы](https://www.youtube.com/watch?v=RUF3n_EIcy8)
-    - Транзакции, уровни изоляции транзакций (ReadCommited, ReadCommited (default Postgres), RepeatableRead (default MySQL), Serializable)
-      - [Базы данных. MySQL. Транзакции](https://www.youtube.com/watch?v=qb6l4B57Qmw)
-      - [Уровни изоляции транзакций в базах данных](https://www.youtube.com/watch?v=dmjZTtoxyf4)
-    - ACID
-      - [Что такое ACID за 9 минут](https://www.youtube.com/watch?v=vFmajCQ7Wuc)
-    - Репликация и шардирования
-      - [Что такое ШАРДИНГ и РЕПЛИКАЦИЯ за 9 минут](https://www.youtube.com/watch?v=qdNlt8wR_84) 
-    - Запросы. Поиск и анализ проблем производительности запросов
-  - Postgres
-    - Материалы:
-      - [PostgreSQL 14 изнутри](https://postgrespro.ru/education/books/internals)
-      - [de5134060bdaad15a9c0c2b12373025b_Mastering   PostgreSQL 11.pdf (download)](https://github.com/zikwall/golden-fleece/blob/master/de5134060bdaad15a9c0c2b12373025b_Mastering%20%20%20PostgreSQL%2011.pdf)
-      - [DEV1-12. 03. Изоляция и многоверсионность](https://www.youtube.com/watch?v=UTJAKhlJYT8)
-      - [DEV1-12. 04. Буферный кеш и журнал](https://www.youtube.com/watch?v=oZdioVBV-fo)
-    - Ключевые моменты
-      - Буферный кеш
-      - Жернал предзаписи (WAL)
-      - Контрольная точка восстановления
-      - Многоверсионность
-      - Снимок данных
-      - Блокировки
-      - Очистка страниц
-      - Типы индексов
-  - MySQL
-    - Типы движков: InnoDB и MyISAM
-  - NoSQL базы
-    - [NoSQL простым языком: что это и зачем нужно?](https://www.youtube.com/watch?v=IBzTDkYNB7I)
-    - [Что такое NoSQL за 6 минут](https://www.youtube.com/watch?v=Xu4S2OX8Gb4&t=281s)
-    - Типы баз данных:
-      - **Key-Value** (Redis, Memcached, DynamoDB)
-      - **Графовые** (Neo4j, Dgraph)
-      - **Колончатые (столбцовые)** (Cassandra, HBase, Clickhouse)
-      - **Документоориентированные** (MongoDB, Amazon DynamoDB, CouchDB)
-      - **Поисковые БД** (ElasticSearch, Solr, Alglia)
-      - **База данных временных рядов** (InfluxDB, Prometheus)
-      - **Многомодульные БД** (пример Redis может и в графы и временные ряды и в документы)
-- **Инфраструктура, (Infrastructure, DevOps)**
+1. [x] **Дизайн (паттерны кода) (Code Patterns)**
+    1. [x] [Refactoring.Guru](https://refactoring.guru/design-patterns/go)
+    1. [x] [Паттерны проектирования с примерами на Golang](https://github.com/AlexanderGrom/go-patterns)
+1. [ ] **Дизайн (принципы) (Design Principes)**
+    1. [x] [SOLID](https://github.com/goavengers/go-principles?tab=readme-ov-file#solid)
+    1. [x] [DRY](https://github.com/goavengers/go-principles?tab=readme-ov-file#dry)
+    1. [x] [KISS](https://github.com/goavengers/go-principles?tab=readme-ov-file#kiss)
+    1. [x] [YAGNI](https://github.com/goavengers/go-principles?tab=readme-ov-file#yagni)
+    1. [ ] ООП
+        1. [x] [Что такое ООП (объектно-ориентированное программирование)?](https://www.youtube.com/watch?v=ChEdFh7Q-Vw&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=43)
+        1. [x] [Объектно-ориентированное программирование за 10 минут](https://www.youtube.com/watch?v=W2V1ZUceKBk)
+    1. [ ] [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd)
+        1. [x] [Domain Driven Design в Go – это почти не больно](https://habr.com/ru/companies/oleg-bunin/articles/791420/) 
+1. [ ] **Системный дизайн (System Design)**
+    1. [x] [System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю (download)](./System_Design_Подготовка_к_сложному_интервью_2022_Алекс_Сю.pdf)
+    1. [x] [System Design 101 (English](https://github.com/ByteByteGoHq/system-design-101#table-of-contents)
+    1. [x] System+Design+Blueprint.pdf (download)](./System+Design+Blueprint.pdf)
+    1. [ ] Кеширование
+        1. [ ] Redis
+        1. [ ] Memcached 
+    1. [ ] Балансировка нагрузки
+        1. [ ] HaProxy
+    1. [ ] Межсервисное взаимодействие: gRPC, REST vs RPC, WeebHook, WebSocket, Broker
+        1. [x] [Что такое REST на самом деле?](https://www.youtube.com/watch?v=08-RlaLgWx4)
+        1. [x] [Что такое gRPC и Protobuf?](https://www.youtube.com/watch?v=_EqVG-El5z0)
+        1. [ ] Brokers..
+    1. [ ] API
+        1. [x] [API Design Guide](https://docs.ensi.tech/guidelines/api)
+    1. [x] WeebHook
+        1. [x] [Что такое Webhook и чем отличается от API?](https://www.youtube.com/watch?v=KhuZdeuF6kw)
+        1. [x] [Что такое Webhook за 12 минут](https://www.youtube.com/watch?v=_NlHzAaLH4g)
+    1. [x] WebSockets
+        1. [x] [Все про WebSockets (веб-сокеты) простыми словами](https://www.youtube.com/watch?v=19d4AXt3dSI&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=40)
+        1. [x] [Что такое веб-сокеты за 4 минуты](https://www.youtube.com/watch?v=WtF-wMzPtuM)
+    1. [ ] Брокеры сообщений
+        1. [x] Apache Kafka
+            1. [x] [Про Kafka (основы)](https://www.youtube.com/watch?v=-AZOi3kP9Js)
+            1. [x] [Что такое Apache Kafka за 5 минут](https://www.youtube.com/watch?v=Mw9YFay8-WM)
+            1. [x] [Kafka Design Guide](https://docs.ensi.tech/guidelines/kafka)
+        1. [ ] RabbitMQ
+            1. [x] [Основы RabbitMQ: что это и как это работает!](https://www.youtube.com/watch?v=i-Eh-NCa0Tk)
+            1. [x] [Что такое RabbitMQ и чем он отличается от Apache Kafka за 10 минут](https://www.youtube.com/watch?v=w_M6WEGS2fw)
+        1. [ ] Nats
+    1. [ ] Микросервисы:
+        1. [x] [Про микросервисы за 8 минут](https://www.youtube.com/watch?v=rCbdQc42eCw)
+        1. [x] [Проблема транзакций в микросервисной архитектуре / Краткая теория ACID / Что такое транзакция](https://www.youtube.com/watch?v=oirgmpk8KSo)
+1. [ ] **Структуры данных (Data Steructures)**
+    1. [ ] Массивы
+    2. [ ] Динамические массивы
+    1. [ ] Деревья
+    1. [ ] Графы
+    1. [ ] Боры (в сущности, это тоже деревья, но их целесообразно рассмотреть отдельно).
+    1. [ ] Хеш-таблицы
+    1. [x] [Стек (Stack)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D1%82%D0%B5%D0%BA)
+    1. [x] [Очередь (Queue)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C)
+    1. [x] [Множества (Set)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0-sets)
+    1. [x] [Связанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
+1. [ ] **База данных (Databases)**
+    1. [ ] Реляционные базы
+        1. [x] [Database Design Guide](https://docs.ensi.tech/guidelines/database)
+        1. [x] Индексы
+            1. [x] [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA&pp=ygUhcG9zdGdyZXMg0LLQtdGA0YHQuNC-0L3QvdC-0YHRgtGM)
+            1. [x] [Базы данных. MySQL. Индексы](https://www.youtube.com/watch?v=RUF3n_EIcy8)
+        1. [x] Транзакции, уровни изоляции транзакций (ReadCommited, ReadCommited (default Postgres), RepeatableRead (default MySQL), Serializable)
+            1. [x] [Базы данных. MySQL. Транзакции](https://www.youtube.com/watch?v=qb6l4B57Qmw)
+            1. [x] [Уровни изоляции транзакций в базах данных](https://www.youtube.com/watch?v=dmjZTtoxyf4)
+        1. [x] ACID
+            1. [x] [Что такое ACID за 9 минут](https://www.youtube.com/watch?v=vFmajCQ7Wuc)
+        1. [x] Репликация и шардирования
+            1. [x] [Что такое ШАРДИНГ и РЕПЛИКАЦИЯ за 9 минут](https://www.youtube.com/watch?v=qdNlt8wR_84)
+        1. [x] Запросы. Поиск и анализ проблем производительности запросов
+    1. [x] Postgres
+        1. [x] Материалы:
+            1. [x] [PostgreSQL 14 изнутри](https://postgrespro.ru/education/books/internals)
+            1. [x] [de5134060bdaad15a9c0c2b12373025b_Mastering   PostgreSQL 11.pdf (download)](https://github.com/zikwall/golden-fleece/blob/master/de5134060bdaad15a9c0c2b12373025b_Mastering%20%20%20PostgreSQL%2011.pdf)
+            1. [x] [DEV1-12. 03. Изоляция и многоверсионность](https://www.youtube.com/watch?v=UTJAKhlJYT8)
+            1. [x] [DEV1-12. 04. Буферный кеш и журнал](https://www.youtube.com/watch?v=oZdioVBV-fo)
+        1. [x] Ключевые моменты
+            1. [x] Буферный кеш
+            1. [x] Жернал предзаписи (WAL)
+            1. [x] Контрольная точка восстановления
+            1. [x] Многоверсионность
+            1. [x] Снимок данных
+            1. [x] Блокировки
+            1. [x] Очистка страниц
+            1. [x] Типы индексов
+    1. [x] MySQL
+        1. [x] Типы движков: InnoDB и MyISAM
+    1. [x] NoSQL базы
+        1. [x] [NoSQL простым языком: что это и зачем нужно?](https://www.youtube.com/watch?v=IBzTDkYNB7I)
+        2. [x] [Что такое NoSQL за 6 минут](https://www.youtube.com/watch?v=Xu4S2OX8Gb4&t=281s)
+        3. [x] Типы баз данных:
+          - **Key-Value** (Redis, Memcached, DynamoDB)
+          - **Графовые** (Neo4j, Dgraph)
+          - **Колончатые (столбцовые)** (Cassandra, HBase, Clickhouse)
+          - **Документоориентированные** (MongoDB, Amazon DynamoDB, CouchDB)
+          - **Поисковые БД** (ElasticSearch, Solr, Alglia)
+          - **База данных временных рядов** (InfluxDB, Prometheus)
+          - **Многомодульные БД** (пример Redis может и в графы и временные ряды и в документы)
+
+1. [x] **Инфраструктура, (Infrastructure, DevOps)**
   - Docker
   - Kubernetes
   - Git & GitFlow
