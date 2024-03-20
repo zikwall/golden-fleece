@@ -436,18 +436,18 @@ func QuickSort(a []int, low, high int) {
 
 **MicrosoftSQL Server, Oracle Database, MySQL, Postgres**
 
-- Индексы
+- **Индексы**
   - [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA&pp=ygUhcG9zdGdyZXMg0LLQtdGA0YHQuNC-0L3QvdC-0YHRgtGM)
   - [Базы данных. MySQL. Индексы](https://www.youtube.com/watch?v=RUF3n_EIcy8)
-- Транзакции, уровни изоляции транзакций (ReadCommited, ReadCommited (default Postgres), RepeatableRead (default MySQL), Serializable)
+- **Транзакции, уровни изоляции транзакций (ReadCommited, ReadCommited (default Postgres), RepeatableRead (default MySQL), Serializable)**
   - [Базы данных. MySQL. Транзакции](https://www.youtube.com/watch?v=qb6l4B57Qmw)
   - [Уровни изоляции транзакций в базах данных](https://www.youtube.com/watch?v=dmjZTtoxyf4)
-- ACID
+- **ACID**
   - [Что такое ACID за 9 минут](https://www.youtube.com/watch?v=vFmajCQ7Wuc)
-- Репликация и шардирования
+- **Репликация и шардирования**
   - [Что такое ШАРДИНГ и РЕПЛИКАЦИЯ за 9 минут](https://www.youtube.com/watch?v=qdNlt8wR_84) 
-- Запросы. Поиск и анализ проблем производительности запросов
-- Postgres
+- **Запросы. Поиск и анализ проблем производительности запросов**
+- **Postgres**
   - Материалы:
     - [DEV1-12. 03. Изоляция и многоверсионность](https://www.youtube.com/watch?v=UTJAKhlJYT8)
     - [DEV1-12. 04. Буферный кеш и журнал](https://www.youtube.com/watch?v=oZdioVBV-fo)
@@ -459,7 +459,7 @@ func QuickSort(a []int, low, high int) {
     - Снимок данных
     - Блокировки
     - Очистка страниц
-- MySQL
+- **MySQL**
   - Типы движков: InnoDB и MyISAM
  
 ### NoSQL базы
@@ -468,13 +468,13 @@ func QuickSort(a []int, low, high int) {
 - [Что такое NoSQL за 6 минут](https://www.youtube.com/watch?v=Xu4S2OX8Gb4&t=281s)
   
 - Типы баз данных:
-  - Key-Value (Redis, Memcached, DynamoDB)
-  - Графовые (Neo4j, Dgraph)
-  - Колончатые (столбцовые) (Cassandra, HBase, Clickhouse)
-  - Документоориентированные (MongoDB, Amazon DynamoDB, CouchDB)
-  - Поисковые БД (ElasticSearch, Solr, Alglia)
-  - База данных временных рядов (InfluxDB, Prometheus)
-  - Многомодульные БД (пример Redis может и в графы и временные ряды и в документы)
+  - **Key-Value** (Redis, Memcached, DynamoDB)
+  - **Графовые** (Neo4j, Dgraph)
+  - **Колончатые (столбцовые)** (Cassandra, HBase, Clickhouse)
+  - **Документоориентированные** (MongoDB, Amazon DynamoDB, CouchDB)
+  - **Поисковые БД** (ElasticSearch, Solr, Alglia)
+  - **База данных временных рядов** (InfluxDB, Prometheus)
+  - **Многомодульные БД** (пример Redis может и в графы и временные ряды и в документы)
 
 ## Инфраструктура, (Infrastructure, DevOps)
 
