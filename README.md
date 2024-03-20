@@ -10,10 +10,10 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - [ ] Общие вопросы
   - [ ] Алгоритмиечские задачи
 - **Golang**
-  - Тулинг (Tools)
+  - [x] Тулинг (Tools)
     - [x] [Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf (download)](./Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf)
   - [ ] Модули и пакеты (Modules & Packages)
-  - [ ] Шедулинг, горутины, Runtime (Shedule, Goroutines & Runtime)
+  - [x] Шедулинг, горутины, Runtime (Shedule, Goroutines & Runtime)
     - [x] [Внутреннее устройство планировщика Go // Демо-занятие курса «Golang Developer. Professional»](https://www.youtube.com/watch?v=uU0FbA3u5vI)
     - [x] [Антон Сергеев, «Go под капотом»](https://www.youtube.com/watch?v=rloqQY9CT8I)
   - Каналы и операции над нами (Channels)
