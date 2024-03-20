@@ -36,8 +36,36 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - [DRY](https://github.com/goavengers/go-principles?tab=readme-ov-file#dry)
   - [KISS](https://github.com/goavengers/go-principles?tab=readme-ov-file#kiss)
   - [YAGNI](https://github.com/goavengers/go-principles?tab=readme-ov-file#yagni)
-  - OOP
+  - ООП
+     - [Что такое ООП (объектно-ориентированное программирование)?](https://www.youtube.com/watch?v=ChEdFh7Q-Vw&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=43)
+     - [Объектно-ориентированное программирование за 10 минут](https://www.youtube.com/watch?v=W2V1ZUceKBk)
   - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd) 
+- Системный дизайн (System Design)
+  - Кеширование
+    - Redis
+    - Memcached 
+  - Балансировка нагрузки
+    - HaProxy 
+  - Межсервисное взаимодействие: gRPC, REST vs RPC, WeebHook, WebSocket
+    - [Что такое REST на самом деле?](https://www.youtube.com/watch?v=08-RlaLgWx4)
+    - [Что такое gRPC и Protobuf?](https://www.youtube.com/watch?v=_EqVG-El5z0)
+    - WeebHook
+       - [Что такое Webhook и чем отличается от API?](https://www.youtube.com/watch?v=KhuZdeuF6kw)
+       - [Что такое Webhook за 12 минут](https://www.youtube.com/watch?v=_NlHzAaLH4g)
+    - WebSockets
+       - [Все про WebSockets (веб-сокеты) простыми словами](https://www.youtube.com/watch?v=19d4AXt3dSI&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=40)
+       - [Что такое веб-сокеты за 4 минуты](https://www.youtube.com/watch?v=WtF-wMzPtuM)
+  - Брокеры сообщений
+    - Apache Kafka
+      - [Про Kafka (основы)](https://www.youtube.com/watch?v=-AZOi3kP9Js)
+      - [Что такое Apache Kafka за 5 минут](https://www.youtube.com/watch?v=Mw9YFay8-WM)
+    - RabbitMQ
+      - [Основы RabbitMQ: что это и как это работает!](https://www.youtube.com/watch?v=i-Eh-NCa0Tk)
+      - [Что такое RabbitMQ и чем он отличается от Apache Kafka за 10 минут](https://www.youtube.com/watch?v=w_M6WEGS2fw)
+    - Nats
+  - Микросервисы:
+    - [Про микросервисы за 8 минут](https://www.youtube.com/watch?v=rCbdQc42eCw)
+    - [Проблема транзакций в микросервисной архитектуре / Краткая теория ACID / Что такое транзакция](https://www.youtube.com/watch?v=oirgmpk8KSo) 
 - Структуры данных (Data Steructures)
   - Массивы
   - Динамические массивы
@@ -68,7 +96,24 @@ The Ultimate Interview Guide for a Golang Programmer and more.
     - TeamCity
     - GitLab, Bitbucket, Github Actions
 - Сети (Networks)
-  - 
+  - [Что такое IP - адрес и можно ли по нему кого-то вычислить?](https://www.youtube.com/watch?v=6tFGoiok0u8)
+  - [Модель OSI | 7 уровней за 7 минут](https://www.youtube.com/watch?v=je0QFU7p5Oo)
+  - [Ethernet на пальцах](https://www.youtube.com/watch?v=jLGadArowCE)
+  - [Маршрутизатор. Коммутатор. Хаб. Что это и в чем разница?](https://www.youtube.com/watch?v=Bwg-om5NnmQ)
+  - [DNS сервер - что это и как работает?](https://www.youtube.com/watch?v=t2NMbSarXC4)
+  - [Все, что вам нужно знать про DHCP](https://www.youtube.com/watch?v=XPRYaGCkXJ8)
+  - [TCP и UDP | Что это такое и в чем разница?](https://www.youtube.com/watch?v=yMSJKBQINAc)
+  - [Что такое TCP/IP: Объясняем на пальцах](https://www.youtube.com/watch?v=2I1HnSN1H9o)
+  - [HTTP или HTTPS – как работает и в чем разница?](https://www.youtube.com/watch?v=C9T_7D12URI)
+  - [Протокол OSPF (Open Shortest Path First) за 8 минут](https://www.youtube.com/watch?v=3TF9KxpetUw)
+  - [SSL и TLS - в чем разница?](https://www.youtube.com/watch?v=OmlkEhRHRTA)
+  - [Учим основы - что такое VLAN?](https://www.youtube.com/watch?v=tbg1JiTRBSQ)
+  - [Основы BGP за 7 минут](https://www.youtube.com/watch?v=EVYagz5ZeiA&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2)
+- Система (System, Linux)
+  - [Про Linux за 5 минут | Что это или как финский студент перевернул мир?](https://www.youtube.com/watch?v=t2iMS8V8v_U&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=5)
+  - [RAID 0, 1, 5 и 10 | Что это?](https://www.youtube.com/watch?v=7pU3edBVcYw&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=12)
+  - [Как работает компьютерная память: что такое RAM, ROM, SSD, HDD и в чем разница?](https://www.youtube.com/watch?v=tjbB2vh627s&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=33)
+- [Топ 35 вопросов на собеседовании IT - спецу | Что тебя ждет и как отвечать, чтобы получить оффер?](https://www.youtube.com/watch?v=z0wDQc_UE2M&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=35)
 
 ## Вопросы на собеседовании
 
