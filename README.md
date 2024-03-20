@@ -4,7 +4,7 @@
 
 The Ultimate Interview Guide for a Golang Programmer and more.
 
-# Путеводитель
+# Путеводитель (Table of contents)
 
 - Вопросы на собеседовании
   - Общие вопросы
