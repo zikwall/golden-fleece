@@ -1,8 +1,8 @@
 # Welcome, dear traveler
 
-Ультиматум и руководство по собеседованию для программиста Golang и не только. 
+Ультимативное руководство по собеседованию для программиста Golang и не только. 
 
-Ultimatum and Interview guide for Golang programmer and more.
+The Ultimate Interview Guide for a Golang programmer and more.
 
 ## Golang
 
