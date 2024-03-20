@@ -30,7 +30,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
      - [Оценка сложности алгоритмов, или Что такое Big O.](./ALGORITHMS.md#оценка-сложности-алгоритмов-или-что-такое-big-o) 
   - [Сортировки](./ALGORITHMS.md#сортировки)
      - [Ложка теории](./ALGORITHMS.md#ложка-теории)
-     - [Пузырьковая сортировка (Bubble sort)](https://github.com/zikwall/golden-fleece/blob/master/ALGORITHMS.md#1-пузырьковая-сортировка-bubble-sort)
+     - [Пузырьковая сортировка (Bubble sort)](https://github.com/zikwall/golden-fleece/blob/master/ALGORITHMS.md?tab=readme-ov-file#1-пузырьковая-сортировка-bubble-sort)
      - [Сортировка вставками (Insertion sort)](./ALGORITHMS.md#2-сортировка-вставками-insertion-sort)
      - [Сортировка подсчетом (Counting Sort)](./ALGORITHMS.md#3-сортировка-подсчетом-counting-sort)
      - [Быстрая сортировка (Quick Sort)](./ALGORITHMS.md#4-быстрая-сортировка-quick-sort)
