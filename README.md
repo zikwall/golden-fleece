@@ -11,7 +11,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - Алгоритмиечские задачи
 - Golang
   - Тулинг (Tools)
-  - [Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf](./Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf)
+    - [Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf](./Profiling_Go_Applications_in_the_Right_Way_with_Examples_by_Abdulsamet.pdf)
   - Модули и пакеты (Modules & Packages)
   - Шедулинг и горутины (Shedule & Goroutines)
   - Каналы и операции над нами (Channels)
