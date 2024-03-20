@@ -25,9 +25,9 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - Сборщик мусора (Garbage Collector)
   - Тесты (Tests)
   - Преимущества и недостатки
-- Алгоритмы
-  - Сортировки
-  - Поиск 
+- [Алгоритмы](./ALGORITHMS.md)
+  - [Сортировки](./ALGORITHMS.md#sort)
+  - [Поиск](./ALGORITHMS.md#search)
 - Дизайн (паттерны кода) (Code Patterns)
   - [Refactoring.Guru](https://refactoring.guru/design-patterns/go)
   - [Паттерны проектирования с примерами на Golang](https://github.com/AlexanderGrom/go-patterns)
