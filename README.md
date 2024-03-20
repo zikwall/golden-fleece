@@ -33,7 +33,7 @@ The Ultimate Interview Guide for a Golang Programmer and more.
      - [Пузырьковая сортировка (Bubble sort)](./ALGORITHMS.md#1-пузырьковая-сортировка-bubble-sort)
      - [Сортировка вставками (Insertion sort)](./ALGORITHMS.md#2-сортировка-вставками-insertion-sort)
      - [Сортировка подсчетом (Counting Sort)](./ALGORITHMS.md#3-сортировка-подсчетом-counting-sort)
-     - [Быстрая сортировка (Quick Sort)](./ALGORITHMS.md#4-быстрая-сортировка-quick-sort)
+     - [Быстрая сортировка (Quick Sort)](./ALGORITHMS.md#4-быстрая-сортировка-quick-sort){:target="_blank"}
   - [Поиск](./ALGORITHMS.md#поиск)
 - Дизайн (паттерны кода) (Code Patterns)
   - [Refactoring.Guru](https://refactoring.guru/design-patterns/go)
