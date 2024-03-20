@@ -46,7 +46,8 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - ООП
      - [Что такое ООП (объектно-ориентированное программирование)?](https://www.youtube.com/watch?v=ChEdFh7Q-Vw&list=PLVULwBUtsriM4vvqL6HNAdkLMEo0NR3S2&index=43)
      - [Объектно-ориентированное программирование за 10 минут](https://www.youtube.com/watch?v=W2V1ZUceKBk)
-  - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd) 
+  - [DDD](https://github.com/goavengers/go-principles?tab=readme-ov-file#ddd)
+     - [Domain Driven Design в Go – это почти не больно](https://habr.com/ru/companies/oleg-bunin/articles/791420/) 
 - Системный дизайн (System Design)
   - Кеширование
     - Redis
@@ -56,6 +57,8 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - Межсервисное взаимодействие: gRPC, REST vs RPC, WeebHook, WebSocket
     - [Что такое REST на самом деле?](https://www.youtube.com/watch?v=08-RlaLgWx4)
     - [Что такое gRPC и Protobuf?](https://www.youtube.com/watch?v=_EqVG-El5z0)
+    - API
+       - [API Design Guide](https://docs.ensi.tech/guidelines/api)
     - WeebHook
        - [Что такое Webhook и чем отличается от API?](https://www.youtube.com/watch?v=KhuZdeuF6kw)
        - [Что такое Webhook за 12 минут](https://www.youtube.com/watch?v=_NlHzAaLH4g)
@@ -86,7 +89,43 @@ The Ultimate Interview Guide for a Golang Programmer and more.
   - [Связанный список (Linked List)](https://github.com/goavengers/go-datastructure?tab=readme-ov-file#-point_right-%D1%81%D0%B2%D1%8F%D0%B7%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8-linked-list)
 - База данных
   - Реляционные базы
-  - NoSQL базы 
+    - Индексы
+      - [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA&pp=ygUhcG9zdGdyZXMg0LLQtdGA0YHQuNC-0L3QvdC-0YHRgtGM)
+      - [Базы данных. MySQL. Индексы](https://www.youtube.com/watch?v=RUF3n_EIcy8)
+    - Транзакции, уровни изоляции транзакций (ReadCommited, ReadCommited (default Postgres), RepeatableRead (default MySQL), Serializable)
+      - [Базы данных. MySQL. Транзакции](https://www.youtube.com/watch?v=qb6l4B57Qmw)
+      - [Уровни изоляции транзакций в базах данных](https://www.youtube.com/watch?v=dmjZTtoxyf4)
+    - ACID
+      - [Что такое ACID за 9 минут](https://www.youtube.com/watch?v=vFmajCQ7Wuc)
+    - Репликация и шардирования
+      - [Что такое ШАРДИНГ и РЕПЛИКАЦИЯ за 9 минут](https://www.youtube.com/watch?v=qdNlt8wR_84) 
+    - Запросы. Поиск и анализ проблем производительности запросов
+  - Postgres
+    - Материалы:
+      - [DEV1-12. 03. Изоляция и многоверсионность](https://www.youtube.com/watch?v=UTJAKhlJYT8)
+      - [DEV1-12. 04. Буферный кеш и журнал](https://www.youtube.com/watch?v=oZdioVBV-fo)
+    - Ключевые моменты
+      - Буферный кеш
+      - Жернал предзаписи (WAL)
+      - Контрольная точка восстановления
+      - Многоверсионность
+      - Снимок данных
+      - Блокировки
+      - Очистка страниц
+  - MySQL
+    - Типы движков: InnoDB и MyISAM
+  - NoSQL базы
+    - [NoSQL простым языком: что это и зачем нужно?](https://www.youtube.com/watch?v=IBzTDkYNB7I)
+    - [Что такое NoSQL за 6 минут](https://www.youtube.com/watch?v=Xu4S2OX8Gb4&t=281s)
+  
+    - Типы баз данных:
+      - **Key-Value** (Redis, Memcached, DynamoDB)
+      - **Графовые** (Neo4j, Dgraph)
+      - **Колончатые (столбцовые)** (Cassandra, HBase, Clickhouse)
+      - **Документоориентированные** (MongoDB, Amazon DynamoDB, CouchDB)
+      - **Поисковые БД** (ElasticSearch, Solr, Alglia)
+      - **База данных временных рядов** (InfluxDB, Prometheus)
+      - **Многомодульные БД** (пример Redis может и в графы и временные ряды и в документы)
 - Инфраструктура, (Infrastructure, DevOps)
   - Docker
   - Kubernetes
