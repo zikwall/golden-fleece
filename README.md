@@ -93,6 +93,9 @@ The Ultimate Interview Guide for a Golang Programmer and more.
         1. [x] [Про микросервисы за 8 минут](https://www.youtube.com/watch?v=rCbdQc42eCw)
         1. [x] [Проблема транзакций в микросервисной архитектуре / Краткая теория ACID / Что такое транзакция](https://www.youtube.com/watch?v=oirgmpk8KSo)
         2. [x] [Распределенные транзакции / Что выбрать? Saga или 2pc? / Как подружить микросервисы](https://www.youtube.com/watch?v=JNIjlm6iBa8&t=9s)
+        3. [ ] Паттерны:
+            4. [ ] 2pc
+            5. [ ] SAGA 
 1. [ ] **Структуры данных (Data Steructures)**
     1. [ ] Массивы
     2. [ ] Динамические массивы
