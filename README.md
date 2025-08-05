@@ -4,6 +4,139 @@
 
 The Ultimate Interview Guide for a Golang Programmer and more.
 
+# 🎯 Цели подготовки
+
+- Освежить все ключевые темы Go: синтаксис, принципы, стандартная библиотека  
+- Повторить принципы системного проектирования и архитектуры на Go  
+- Подготовиться к вопросам на алгоритмы, конкурентность, GC, сборку  
+- Отточить ответы на системные и архитектурные вопросы  
+- Прокачать навыки live coding'а и объяснения решений  
+
+---
+
+# 📅 Общий План (на 4–6 недель)
+
+## 1. Базовый обзор языка Go (1 неделя)
+
+Даже для сеньора важно пройтись по базовым темам, т.к. многие вопросы — именно на "грабли", с которыми сталкиваются в повседневной разработке.
+
+### 📘 Синтаксис и структура:
+- Пакеты, инициализация, импорты, `init()`
+- Типы, структуры, интерфейсы, анонимные поля
+
+### 📌 Основы:
+- Указатели, значения и ссылки
+- Интерфейсы vs конкретные типы
+- Работа с ошибками: `error`, `errors`, `fmt.Errorf`, `errors.Is/As`
+- Отличия значимых типов: `map`, `slice`, `channel`
+
+👉 **Практика:** решать задачи на Exercism, Leetcode
+
+---
+
+## 2. Concurrency & Channels (1 неделя)
+
+### 🧠 Goroutines
+- Устройство, ограничения
+
+### 🧱 Каналы:
+- Буферизованные и небуферизованные
+- Закрытие каналов
+- Паттерны: **Fan-in / Fan-out / Worker pool**
+
+### 🕸 Синхронизация:
+- `select`, таймауты, `context`
+- Data Races, `sync.Mutex`, `sync.RWMutex`, `sync.Once`, `sync.WaitGroup`
+- `atomic` операции
+
+👉 **Практика:** написать простой concurrent pipeline с контролем ошибок через `context`
+
+---
+
+## 3. Стандартная библиотека Go (1 неделя)
+
+### 📚 Работа с данными:
+- `io`, `ioutil`, `os`, `bufio`
+- Работа с файлами, сериализация (`encoding/json`, `encoding/gob`, `encoding/xml`)
+
+### 🌐 HTTP:
+- `net/http`: клиент и сервер
+- `context`, `http.Client`, мидлвары
+
+### 📦 Тестирование:
+- `testing`, `httptest`, `testify`
+
+👉 **Практика:** написать mini HTTP сервер с middleware, логированием, контекстом и graceful shutdown
+
+---
+
+## 4. Архитектура и дизайн (1 неделя)
+
+### 💡 Архитектурные подходы:
+- Clean Architecture / Hexagonal / Onion
+
+### 📁 Организация проекта:
+- Structuring Go-проектов (pkg layout)
+- DI-подходы: `wire`, `fx`, ручной DI
+
+### 📡 Архитектурные стили:
+- CQRS, Event-driven, REST / gRPC
+- Монолит vs Микросервисы
+- RPC, Message brokers (NATS, Kafka)
+
+👉 **Практика:** спроектировать и реализовать по частям простой микросервис с REST API
+
+---
+
+## 5. Алгоритмы и структуры данных (1–2 недели, параллельно)
+
+### Обязательные темы:
+- Сортировки, поиск, хеш-таблицы
+- Стеки, очереди, деревья (DFS/BFS)
+- Динамическое программирование (на базовом уровне)
+
+### Особенности:
+- Реализация на Go
+- Работа с указателями
+- Упор на объяснение решений
+
+👉 **Платформы:** Leetcode, Codeforces (Go), AlgoExpert
+
+---
+
+## 6. Вопросы на собеседования (в течение всей подготовки)
+
+- 🧹 Garbage Collector: триггеры, фазы, оптимизация  
+- 🧠 Memory Management: stack/heap, escape analysis  
+- 🏃 Go Runtime: scheduler, preemption  
+- ⛓ Как работает `defer`, `panic/recover`  
+- 🔧 Что происходит при `go build`  
+- 🧱 Best practices: error handling, logging, metrics  
+- 📈 Инструменты профилирования: `pprof`, `trace`, `race`  
+
+---
+
+# 🧰 Инструменты и ресурсы
+
+## 📚 Книги:
+- *The Go Programming Language* — Alan Donovan  
+- *Go Proverbs*  
+- *Effective Go*  
+- *Go in Action*  
+- *Concurrency in Go*
+
+## 🎥 YouTube:
+- [JustForFunc](https://www.youtube.com/c/JustForFunc)
+- GopherCon Talks
+
+## 🔧 Инструменты:
+- `delve`, `benchstat`, `pprof`, `go vet`, `golangci-lint`
+
+## 📦 Репозитории:
+- https://github.com/golang/go/wiki/CodeReviewComments  
+- https://github.com/gravityblast/fresh (Live reload)  
+- https://github.com/uber-go/guide (Uber's Go Style Guide)  
+
 # Путеводитель (Table of contents)
 
 1. [ ] **Вопросы на собеседовании**
